@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link](https://anita00001.github.io/To-do-List/)
+> - [Live Demo Link](https://anita00001.github.io/To-do-list-Review/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +92,7 @@
 
 > Clone this repository to your desired folder:<br>
 > - <code>cd your-folder</code><br>
-> - <code>git clone https://github.com/anita00001/To-do-List</code>
+> - <code>git clone https://github.com/anita00001/To-do-list-Review</code>
 
 ### Install
 
@@ -128,7 +128,7 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Add interaction such as removing in bulk, delete individual to-do in the To-do-list app
+> Add interaction such as check for the duplicate entry before adding in to-do in the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +137,7 @@
 ## 🤝 Contributing <a name="contributing"></a>
 
 > Contributions, issues, and feature requests are welcome! <br>
-> Feel free to check the [issues page](https://github.com/anita00001/To-do-List/issues).
+> Feel free to check the [issues page](https://github.com/anita00001/To-do-list-Review/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
