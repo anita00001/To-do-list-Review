@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  flex-direction: column;
+}
+
+body,
+.title,
+.new-task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  width: 80%;
+  margin-top: 3rem;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.49);
+}
+
+.title {
+  padding: 1rem;
+}
+
+.title,
+.new-task,
+.task-row {
+  border-bottom: 2px solid lightgray;
+}
+
+input,
+p,
+button {
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+
+button,
+i,
+input {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.new-task {
+  padding: 0 1rem;
+}
+
+input[type=text] {
+  width: 90%;
+  margin: 0 1.5rem;
+  padding: 1rem 3rem;
+  font-style: italic;
+}
+
+#press-enter {
+  transform: rotate(90deg);
+}
+
+.task-row {
+  display: grid;
+  grid-template-columns: 3fr 18fr 1fr;
+  height: 2.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+#task-description {
+  padding: 0.5rem 0;
+}
+
+.task-row i {
+  width: 100%;
+  text-align: center;
+}
+
+.options > .trash {
+  display: none;
+}
+
+#clear-button {
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+}
