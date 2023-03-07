@@ -1,4 +1,3 @@
-// localstorage.js
 export default class ToDo {
   constructor() {
     const storedData = JSON.parse(localStorage.getItem('ToDo-storage'));
@@ -6,7 +5,7 @@ export default class ToDo {
   }
 
   // add function
-  addToDo(description) {
+  addToDo = (description) => {
     const completed = false;
     const index = this.taskList.length + 1;
     const updatedToDo = [
@@ -17,7 +16,7 @@ export default class ToDo {
   }
 
   // remove function
-  removeFunction(index) {
+  removeFunction = (index) => {
     const updatedToDo = this.taskList.filter((task) => task.index !== index + 1);
     for (let i = 0; i < updatedToDo.length; i += 1) {
       updatedToDo[i].index = i + 1;
@@ -26,12 +25,10 @@ export default class ToDo {
   }
 
   // Get function
-  getFromStorage() {
-    return this.taskList;
-  }
+  getFromStorage = () => this.taskList;
 
   // update storage
-  updateStorage(data) {
+  updateStorage = (data) => {
     localStorage.setItem('ToDo-storage', JSON.stringify(data));
     this.taskList = data;
   }

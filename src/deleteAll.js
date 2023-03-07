@@ -1,4 +1,3 @@
-// deleteAll.js
 const clearCompleted = (tasks) => {
   tasks.taskList = tasks.taskList.filter((task) => !task.completed);
   for (let i = 0; i < tasks.taskList.length; i += 1) {
